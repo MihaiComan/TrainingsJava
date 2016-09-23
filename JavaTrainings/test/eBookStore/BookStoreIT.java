@@ -51,7 +51,7 @@ public class BookStoreIT {
     @Test
     public void testMain() {
         System.out.println("main");
-        systemInMock.provideLines("Inferno");
+        systemInMock.provideText("Inferno");
         String expResult = null;
         Object result = null;
         assertEquals(expResult, result);

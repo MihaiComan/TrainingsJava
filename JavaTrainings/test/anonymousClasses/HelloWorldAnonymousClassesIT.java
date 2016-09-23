@@ -5,7 +5,9 @@
  */
 package anonymousClasses;
 
-import static anonymousClasses.HelloWorldAnonymousClasses.LANGUAGES.ENGLISH;
+
+
+import static java.util.Locale.ENGLISH;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;

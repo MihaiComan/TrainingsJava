@@ -12,8 +12,9 @@ import static eBookStore.Novel.Genre.ROMANCE;
 import static eBookStore.Novel.Genre.SF;
 import java.util.*;
 import java.io.File;
-import org.apache.logging.log4j.Logger;
-import org.apache.logging.log4j.LogManager;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+
 /**
  *
  * @author Mihai

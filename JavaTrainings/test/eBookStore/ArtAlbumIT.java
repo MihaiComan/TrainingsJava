@@ -134,5 +134,32 @@ public class ArtAlbumIT {
         instance.saveBooks();
         
     }
+
+    /**
+     * Test of getNext method, of class ArtAlbum.
+     */
+    @Test
+    public void testGetNext() {
+        System.out.println("getNext");
+        ArtAlbum instance = null;
+        Book expResult = null;
+        Book result = instance.getNext();
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of setNext method, of class ArtAlbum.
+     */
+    @Test
+    public void testSetNext() {
+        System.out.println("setNext");
+        Book next = null;
+        ArtAlbum instance = null;
+        instance.setNext(next);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
     
 }
